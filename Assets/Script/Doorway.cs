@@ -15,7 +15,7 @@ public class Doorway : MonoBehaviour
     private SpriteRenderer sRenderer;
 
 
-    public bool collectAllCoinsToOpen = true;
+    public bool collectAllArtToOpen = true;
     private int numCoins = 0;
 
     private bool isOpen = false;
@@ -59,19 +59,19 @@ public class Doorway : MonoBehaviour
         }
     }
 
-    public void RegisterCoin()
+    public void RegisterArt()
     {
-        numCoins++;
-        if (collectAllCoinsToOpen)
+        numArt++;
+        if (collectAllArtToOpen)
         {
             Close();
         }
     }
 
-    public void CoinCollected()
+    public void ArtCollected()
     {
-        numCoins--;
-        if(numCoins <= 0)
+        numArt--;
+        if(numArt <= 0)
         {
             Open();
         }

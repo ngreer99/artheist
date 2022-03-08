@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Coin : MonoBehaviour
+public class Art : MonoBehaviour
 {
     public float animationDuration = 2;
     SpriteRenderer sRenderer;
@@ -10,7 +10,7 @@ public class Coin : MonoBehaviour
     private void Start()
     {
         Doorway door = FindObjectOfType<Doorway>();
-        if(door!=null) door.RegisterCoin();
+        if(door!=null) door.RegisterArt();
         sRenderer = GetComponent<SpriteRenderer>();
     }
 
@@ -20,7 +20,7 @@ public class Coin : MonoBehaviour
         if (controller != null) {
             controller.CollectCoin();
             Doorway door = FindObjectOfType<Doorway>();
-            if (door!=null) door.CoinCollected();
+            if (door!=null) door.ArtCollected();
             StartCoroutine(CollectAnimation());
             Destroy(GetComponent<Collider2D>());
         }
