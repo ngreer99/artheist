@@ -1,7 +1,157 @@
 fileFormatVersion: 2
 guid: 8542c4b11f45047f69fe99142b36b1fd
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -6538773653641473550
+    second: StreetThief 11.15.37 AM_0
+  - first:
+      213: -8103753773705976140
+    second: StreetThief 11.15.37 AM_1
+  - first:
+      213: 5622831698475001836
+    second: StreetThief 11.15.37 AM_2
+  - first:
+      213: -4294610201645684133
+    second: StreetThief 11.15.37 AM_3
+  - first:
+      213: -2498987812203079680
+    second: StreetThief 11.15.37 AM_4
+  - first:
+      213: 6209386962373325996
+    second: StreetThief 11.15.37 AM_5
+  - first:
+      213: -1820936930314826162
+    second: StreetThief 11.15.37 AM_6
+  - first:
+      213: 6324377949334423448
+    second: StreetThief 11.15.37 AM_7
+  - first:
+      213: 4258518677634547903
+    second: StreetThief 11.15.37 AM_8
+  - first:
+      213: -1201355055266869100
+    second: StreetThief 11.15.37 AM_9
+  - first:
+      213: -6994280945305379410
+    second: StreetThief 11.15.37 AM_10
+  - first:
+      213: 4899452330344237578
+    second: StreetThief 11.15.37 AM_11
+  - first:
+      213: -8599960484514720716
+    second: StreetThief 11.15.37 AM_12
+  - first:
+      213: 4410837350046477320
+    second: StreetThief 11.15.37 AM_13
+  - first:
+      213: -5269494811913647517
+    second: StreetThief 11.15.37 AM_14
+  - first:
+      213: 5977721410503731219
+    second: StreetThief 11.15.37 AM_15
+  - first:
+      213: 2767345577281906778
+    second: StreetThief 11.15.37 AM_16
+  - first:
+      213: 3028039103048204589
+    second: StreetThief 11.15.37 AM_17
+  - first:
+      213: 2597096508164951441
+    second: StreetThief 11.15.37 AM_18
+  - first:
+      213: -8641091616198193050
+    second: StreetThief 11.15.37 AM_19
+  - first:
+      213: 5962897056733668104
+    second: StreetThief 11.15.37 AM_20
+  - first:
+      213: -2583766053204678269
+    second: StreetThief 11.15.37 AM_21
+  - first:
+      213: 7161693922405755864
+    second: StreetThief 11.15.37 AM_22
+  - first:
+      213: 4672648239934035568
+    second: StreetThief 11.15.37 AM_23
+  - first:
+      213: -8495057713170348988
+    second: StreetThief 11.15.37 AM_24
+  - first:
+      213: -3466771718310064482
+    second: StreetThief 11.15.37 AM_25
+  - first:
+      213: -8978062843487682211
+    second: StreetThief 11.15.37 AM_26
+  - first:
+      213: -3757554726968155494
+    second: StreetThief 11.15.37 AM_27
+  - first:
+      213: -4919717848587404993
+    second: StreetThief 11.15.37 AM_28
+  - first:
+      213: 942109267180705721
+    second: StreetThief 11.15.37 AM_29
+  - first:
+      213: -8479970963734586163
+    second: StreetThief 11.15.37 AM_30
+  - first:
+      213: -7783931900078727669
+    second: StreetThief 11.15.37 AM_31
+  - first:
+      213: -2168904191396321798
+    second: StreetThief 11.15.37 AM_32
+  - first:
+      213: -589321633283196547
+    second: StreetThief 11.15.37 AM_33
+  - first:
+      213: 3782151515414217992
+    second: StreetThief 11.15.37 AM_34
+  - first:
+      213: -2646877925504300957
+    second: StreetThief 11.15.37 AM_35
+  - first:
+      213: 2067924136322612852
+    second: StreetThief 11.15.37 AM_36
+  - first:
+      213: -4889751441174538923
+    second: StreetThief 11.15.37 AM_37
+  - first:
+      213: 5958293227921966710
+    second: StreetThief 11.15.37 AM_38
+  - first:
+      213: -5392678411405868168
+    second: StreetThief 11.15.37 AM_39
+  - first:
+      213: -4877244211710967227
+    second: StreetThief 11.15.37 AM_40
+  - first:
+      213: -3250193987628754387
+    second: StreetThief 11.15.37 AM_41
+  - first:
+      213: -6779447718159649493
+    second: StreetThief 11.15.37 AM_42
+  - first:
+      213: -8350265123100380876
+    second: StreetThief 11.15.37 AM_43
+  - first:
+      213: 8738840955954318541
+    second: StreetThief 11.15.37 AM_44
+  - first:
+      213: 8584355188967256787
+    second: StreetThief 11.15.37 AM_45
+  - first:
+      213: 2347704404914703952
+    second: StreetThief 11.15.37 AM_46
+  - first:
+      213: -1869022774078937640
+    second: StreetThief 11.15.37 AM_47
+  - first:
+      213: -3475831794641118261
+    second: StreetThief 11.15.37 AM_48
+  - first:
+      213: -7144992593714090690
+    second: StreetThief 11.15.37 AM_49
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +191,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -51,7 +201,7 @@ TextureImporter:
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: -1
+  spriteTessellationDetail: 0
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -75,10 +225,1088 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
-    outline: []
+    sprites:
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 126
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f15404810c9145a0800000000000000
+      internalID: -6538773653641473550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 126
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b6260bd0eea98f80800000000000000
+      internalID: -8103753773705976140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_2
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 126
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7a86383af480e40800000000000000
+      internalID: 5622831698475001836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 128
+        width: 24
+        height: 32
+      alignment: 9
+      pivot: {x: 0.11240196, y: 0.5645995}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ae32286ca7664c0800000000000000
+      internalID: -4294610201645684133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 126
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 008da9333dfc15dd0800000000000000
+      internalID: -2498987812203079680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_5
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 127
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca434352b8c2c2650800000000000000
+      internalID: 6209386962373325996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_6
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 126
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ec136728bbab6e0800000000000000
+      internalID: -1820936930314826162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_7
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 125
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8974467ac34b4c750800000000000000
+      internalID: 6324377949334423448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_8
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 127
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb006c9bc2c491b30800000000000000
+      internalID: 4258518677634547903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_9
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 127
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490d2b931fde35fe0800000000000000
+      internalID: -1201355055266869100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_10
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 95
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead1acb99825fee90800000000000000
+      internalID: -6994280945305379410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_11
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 94
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ac020afe95ef340800000000000000
+      internalID: 4899452330344237578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_12
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 93
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4349a1ef08dc6a880800000000000000
+      internalID: -8599960484514720716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_13
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 93
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80cab834331763d30800000000000000
+      internalID: 4410837350046477320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_14
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 94
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a8f16336efed6b0800000000000000
+      internalID: -5269494811913647517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_15
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 95
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318625793f125f250800000000000000
+      internalID: 5977721410503731219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_16
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 96
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a58e2a8f326976620800000000000000
+      internalID: 2767345577281906778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_17
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 97
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d214e2f5581c50a20800000000000000
+      internalID: 3028039103048204589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_18
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 95
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d4490a38dba0420800000000000000
+      internalID: 2597096508164951441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_19
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 95
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66096e025fca41880800000000000000
+      internalID: -8641091616198193050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_20
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 63
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80325d2c74770c250800000000000000
+      internalID: 5962897056733668104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_21
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 62
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 389a508c67e942cd0800000000000000
+      internalID: -2583766053204678269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_22
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 64
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dba11b9da2736360800000000000000
+      internalID: 7161693922405755864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_23
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 64
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0765f9541d498d040800000000000000
+      internalID: 4672648239934035568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_24
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 63
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4440a04c40e7b1a80800000000000000
+      internalID: -8495057713170348988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_25
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 64
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e02cc6d7d83efc0800000000000000
+      internalID: -3466771718310064482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_26
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 63
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5188c26963876380800000000000000
+      internalID: -8978062843487682211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_27
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 64
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9229fa52eb7adbc0800000000000000
+      internalID: -3757554726968155494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_28
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 62
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f397cc7bea6a9bbb0800000000000000
+      internalID: -4919717848587404993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_29
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 63
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7d8e1136b031d00800000000000000
+      internalID: 942109267180705721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_30
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 30
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc19f85657115a80800000000000000
+      internalID: -8479970963734586163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_31
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 30
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ed9fb8d2be9f390800000000000000
+      internalID: -7783931900078727669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_32
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 30
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af567f7112186e1e0800000000000000
+      internalID: -2168904191396321798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_33
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 29
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d79b3bdc81f42d7f0800000000000000
+      internalID: -589321633283196547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_34
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 28
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80548fab3c6ec7430800000000000000
+      internalID: 3782151515414217992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_35
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 29
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3684e7eec86644bd0800000000000000
+      internalID: -2646877925504300957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_36
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 29
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e37ffab0eb2bc10800000000000000
+      internalID: 2067924136322612852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_37
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 29
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55556d4a8fc142cb0800000000000000
+      internalID: -4889751441174538923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_38
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 30
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67687e55f1c10b250800000000000000
+      internalID: 5958293227921966710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_39
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 32
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8734c347e8b5925b0800000000000000
+      internalID: -5392678411405868168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_40
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542432eea3c805cb0800000000000000
+      internalID: -4877244211710967227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_41
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 0
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a174cd9cdf4e2d0800000000000000
+      internalID: -3250193987628754387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_42
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 2
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b25f2c928309ae1a0800000000000000
+      internalID: -6779447718159649493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_43
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 0
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431b445bc16ed1c80800000000000000
+      internalID: -8350265123100380876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_44
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dccca409c89964970800000000000000
+      internalID: 8738840955954318541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_45
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 0
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d2bc200091c12770800000000000000
+      internalID: 8584355188967256787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_46
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 0
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e8f84b7b8b49020800000000000000
+      internalID: 2347704404914703952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_47
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 0
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5e8e180b5ef06e0800000000000000
+      internalID: -1869022774078937640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_48
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 0
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb5865066d53cfc0800000000000000
+      internalID: -3475831794641118261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetThief 11.15.37 AM_49
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 0
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3defd08713e7dc90800000000000000
+      internalID: -7144992593714090690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: -156, y: 46}
+      - {x: -155, y: 78}
+      - {x: -131, y: 78}
+      - {x: -132, y: 46}
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
