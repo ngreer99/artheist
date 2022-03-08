@@ -16,7 +16,7 @@ public class Doorway : MonoBehaviour
 
 
     public bool collectAllArtToOpen = true;
-    private int numCoins = 0;
+    private int numArt = 0;
 
     private bool isOpen = false;
 
