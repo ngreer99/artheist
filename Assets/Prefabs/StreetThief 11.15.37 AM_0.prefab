@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7316683594425978640}
   - component: {fileID: -8766031137734425680}
   - component: {fileID: -7443540227694807061}
+  - component: {fileID: -4316084709754375439}
   m_Layer: 0
   m_Name: StreetThief 11.15.37 AM_0
   m_TagString: Player
@@ -132,11 +133,13 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.095, y: 0.16}
-      - {x: -0.095, y: -0.16}
-      - {x: 0.085, y: -0.16}
-      - {x: 0.085, y: 0.14999999}
-      - {x: 0.074999996, y: 0.16}
+    - - {x: -0.043242548, y: 0.15802853}
+      - {x: -0.07620117, y: 0.045640424}
+      - {x: -0.04394543, y: -0.14406908}
+      - {x: -0.0069540218, y: -0.10721934}
+      - {x: 0.038435373, y: -0.13952096}
+      - {x: 0.048968896, y: 0.060705513}
+      - {x: 0.032702632, y: 0.15373375}
 --- !u!114 &-8766031137734425680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -179,3 +182,29 @@ MonoBehaviour:
   idleAnimation: []
   walkAnimation: []
   jumpAnimation: []
+--- !u!114 &-4316084709754375439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7556669707745915971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c00210c26ad222498d387b8dabde2c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
+  grounded: 0
+  groundLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  groundRayLength: 0.1
+  groundRaySpread: 0.1
+  relativeVelocity: {x: 0, y: 0}
+  jumpforce: 0
+  lives: 5
+  jumpsound: {fileID: 0}
+  hitsound: {fileID: 0}
+  coinsound: {fileID: 0}
+  killsound: {fileID: 0}
