@@ -28,9 +28,10 @@ public abstract class BaseController : MonoBehaviour
         RaycastHit2D hitLeft = Physics2D.Raycast(rayStartLeft, Vector2.down, groundRayLength * 2, groundLayers);
         RaycastHit2D hitRight = Physics2D.Raycast(rayStartRight, Vector2.down, groundRayLength * 2, groundLayers);
 
-        Debug.DrawLine(rayStart, rayStart + Vector3.down * groundRayLength * 2, Color.red);
+        /*Debug.DrawLine(rayStart, rayStart + Vector3.down * groundRayLength * 2, Color.red);
         Debug.DrawLine(rayStartLeft, rayStartLeft + Vector3.down * groundRayLength * 2, Color.red);
-        Debug.DrawLine(rayStartRight, rayStartRight + Vector3.down * groundRayLength * 2, Color.red);
+        Debug.DrawLine(rayStartRight, rayStartRight + Vector3.down * groundRayLength * 2, Color.red);*/
+
         if (hit.collider != null)
         {
             grounded = true;
