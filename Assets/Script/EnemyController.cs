@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyController2D : Controller2D
+public class EnemyController : BaseController
 {
     public float ledgeTestLeft;
     public float ledgeTestRight;
@@ -22,11 +22,13 @@ public class EnemyController2D : Controller2D
 
     int UpdateDirection()
     {
-        if (!grounded) {
+        if (!grounded)
+        {
             direction = 0;
             return 0;
         }
-        if(direction == 0) {
+        if (direction == 0)
+        {
             direction = 1;
         }
         Vector3 ledgeRayStartLeft = transform.position + Vector3.up * groundRayLength + Vector3.left * ledgeTestLeft;
@@ -38,11 +40,13 @@ public class EnemyController2D : Controller2D
         RaycastHit2D hitLeft = Physics2D.Raycast(ledgeRayStartLeft, Vector2.down, groundRayLength * 2, groundLayers);
         RaycastHit2D hitRight = Physics2D.Raycast(ledgeRayStartRight, Vector2.down, groundRayLength * 2, groundLayers);
 
-        if(hitLeft.collider == null) {
+        if (hitLeft.collider == null)
+        {
             direction = 1;
         }
 
-        if(hitRight.collider == null) {
+        if (hitRight.collider == null)
+        {
             direction = -1;
         }
         return direction;
@@ -50,10 +54,14 @@ public class EnemyController2D : Controller2D
 
     protected override void Hurt(Vector3 impactDirection)
     {
-        if(Mathf.Abs(impactDirection.x) > Mathf.Abs(impactDirection.y)) {
+        if (Mathf.Abs(impactDirection.x) > Mathf.Abs(impactDirection.y))
+        {
             direction = (int)Mathf.Sign(-impactDirection.x);
-        } else {
-            if(impactDirection.y > 0.0f) {
+        }
+        else
+        {
+            if (impactDirection.y > 0.0f)
+            {
                 Destroy(gameObject);
             }
         }

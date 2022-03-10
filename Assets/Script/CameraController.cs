@@ -13,13 +13,13 @@ public class CameraController : MonoBehaviour
 
     void Start()
     {
-        
+
     }
 
     void Update()
     {
         Vector3 start = transform.position;
-        Vector3 goal = target.position + new Vector3(0.0f,0.0f,-10);
+        Vector3 goal = target.position + new Vector3(0.0f, 0.0f, -10);
         float t = Time.deltaTime * speed;
         Vector3 newPosition = Vector3.Lerp(start, goal, t);
         float maxX = globalMaxX - Camera.main.orthographicSize * Camera.main.aspect;

@@ -12,9 +12,7 @@ GameObject:
   - component: {fileID: 1089127392536277595}
   - component: {fileID: -7558920642331596833}
   - component: {fileID: 7316683594425978640}
-  - component: {fileID: -8766031137734425680}
-  - component: {fileID: -7443540227694807061}
-  - component: {fileID: -4316084709754375439}
+  - component: {fileID: 4546211271856875273}
   m_Layer: 0
   m_Name: StreetThief 11.15.37 AM_0
   m_TagString: Player
@@ -102,11 +100,11 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 6200000, guid: a288156d602c12f4692f068183a64144, type: 2}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_GravityScale: 2
+  m_Material: {fileID: 6200000, guid: d65e5b213313c4015a819cec96789a16, type: 2}
+  m_Interpolate: 1
+  m_SleepingMode: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!60 &7316683594425978640
 PolygonCollider2D:
@@ -140,7 +138,7 @@ PolygonCollider2D:
       - {x: 0.038435373, y: -0.13952096}
       - {x: 0.048968896, y: 0.060705513}
       - {x: 0.032702632, y: 0.15373375}
---- !u!114 &-8766031137734425680
+--- !u!114 &4546211271856875273
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -149,10 +147,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 7556669707745915971}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c00210c26ad222498d387b8dabde2c5, type: 3}
+  m_Script: {fileID: 11500000, guid: 33a58c3426dfa443a91afae431ecd95c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
+  speed: 5
   grounded: 0
   groundLayers:
     serializedVersion: 2
@@ -161,48 +159,6 @@ MonoBehaviour:
   groundRaySpread: 0.4
   relativeVelocity: {x: 0, y: 0}
   jumpforce: 12
-  lives: 4
-  jumpsound: {fileID: 0}
-  hitsound: {fileID: 0}
-  coinsound: {fileID: 0}
-  killsound: {fileID: 0}
---- !u!114 &-7443540227694807061
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7556669707745915971}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3888c3e26d37a4b47aff666f7047351a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animationFPS: 0
-  idleAnimation: []
-  walkAnimation: []
-  jumpAnimation: []
---- !u!114 &-4316084709754375439
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7556669707745915971}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c00210c26ad222498d387b8dabde2c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 2
-  grounded: 0
-  groundLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  groundRayLength: 0.1
-  groundRaySpread: 0.1
-  relativeVelocity: {x: 0, y: 0}
-  jumpforce: 0
   lives: 5
   jumpsound: {fileID: 0}
   hitsound: {fileID: 0}

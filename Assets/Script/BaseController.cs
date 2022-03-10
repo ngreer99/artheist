@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class Controller2D : MonoBehaviour
+public abstract class BaseController : MonoBehaviour
 {
     public float speed;
     public bool grounded;
@@ -12,7 +12,6 @@ public abstract class Controller2D : MonoBehaviour
     [HideInInspector] public Vector2 relativeVelocity = new Vector2();
 
     protected Rigidbody2D rb2d;
-    protected MovingPlatform onMovingPlatform;
 
     public virtual void Start()
     {
@@ -35,30 +34,27 @@ public abstract class Controller2D : MonoBehaviour
         if (hit.collider != null)
         {
             grounded = true;
-            onMovingPlatform = hit.collider.gameObject.GetComponent<MovingPlatform>();
             return true;
         }
         else if (hitLeft.collider != null)
         {
             grounded = true;
-            onMovingPlatform = hitLeft.collider.gameObject.GetComponent<MovingPlatform>();
             return true;
         }
         else if (hitRight.collider != null)
         {
             grounded = true;
-            onMovingPlatform = hitRight.collider.gameObject.GetComponent<MovingPlatform>();
             return true;
         }
-        onMovingPlatform = null;
         grounded = false;
         return false;
     }
 
     private void OnCollisionStay2D(Collision2D collision)
     {
-        Controller2D controller = collision.gameObject.GetComponent<Controller2D>();
-        if(controller != null) {
+        BaseController controller = collision.gameObject.GetComponent<BaseController>();
+        if (controller != null)
+        {
             Vector3 impactDirection = collision.gameObject.transform.position - transform.position;
             Hurt(impactDirection);
         }
@@ -66,3 +62,4 @@ public abstract class Controller2D : MonoBehaviour
 
     protected abstract void Hurt(Vector3 impactDirection);
 }
+

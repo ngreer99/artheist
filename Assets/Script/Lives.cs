@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HeartsUI : MonoBehaviour
+public class Lives : MonoBehaviour
 {
     public Image firstHeart;
     public GameObject heartsPanel;
     public Image[] hearts;
-    private int heartsVisible; 
-    private static HeartsUI instance;
+    private int heartsVisible;
+    private static Lives instance;
 
     void Awake()
     {
@@ -50,7 +50,8 @@ public class HeartsUI : MonoBehaviour
     private void _RemoveHeart()
     {
         heartsVisible--;
-        if(heartsVisible >= 0) {
+        if (heartsVisible >= 0)
+        {
             hearts[heartsVisible].enabled = false;
         }
     }

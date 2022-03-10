@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 
-public class PlatformerController2D : Controller2D
+public class PlayerController : BaseController
 {
     public float jumpforce;
     public int lives = 5;
@@ -22,7 +22,7 @@ public class PlatformerController2D : Controller2D
         base.Start();
         sRenderer = GetComponent<SpriteRenderer>();
         audioSource = GetComponent<AudioSource>();
-        HeartsUI.SetLives(lives);
+        Lives.SetLives(lives);
     }
 
     void Update()
@@ -33,13 +33,9 @@ public class PlatformerController2D : Controller2D
         relativeVelocity = vel;
 
         UpdateGrounding();
-        if(onMovingPlatform != null)
-        {
-            vel.x += onMovingPlatform.rb2d.velocity.x;
-        }
-
         bool inputJump = Input.GetKeyDown(KeyCode.Space);
-        if (inputJump && grounded) {
+        if (inputJump)
+        {
             audioSource.PlayOneShot(jumpsound);
             vel.y = jumpforce;
             relativeVelocity.y = vel.y;
@@ -49,10 +45,14 @@ public class PlatformerController2D : Controller2D
 
     protected override void Hurt(Vector3 impactDirection)
     {
-        if (Mathf.Abs(impactDirection.x) > Mathf.Abs(impactDirection.y)) {
+        if (Mathf.Abs(impactDirection.x) > Mathf.Abs(impactDirection.y))
+        {
             TakeDamage();
-        } else {
-            if(impactDirection.y > 0.0f) {
+        }
+        else
+        {
+            if (impactDirection.y > 0.0f)
+            {
                 TakeDamage();
             }
             audioSource.PlayOneShot(killsound);
@@ -64,13 +64,15 @@ public class PlatformerController2D : Controller2D
 
     public void TakeDamage()
     {
-        if (invulnerable) {
+        if (invulnerable)
+        {
             return;
         }
         audioSource.PlayOneShot(hitsound);
         lives--;
-        HeartsUI.RemoveHeart();
-        if(lives <= 0) {
+        Lives.RemoveHeart();
+        if (lives <= 0)
+        {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
         StartCoroutine(Invulnerability(1));
@@ -84,7 +86,8 @@ public class PlatformerController2D : Controller2D
     IEnumerator Invulnerability(float time)
     {
         invulnerable = true;
-        for(int i = 0; i < time/0.2f; i++) {
+        for (int i = 0; i < time / 0.2f; i++)
+        {
             sRenderer.color = Color.red;
             yield return new WaitForSeconds(0.1f);
             sRenderer.color = Color.white;
