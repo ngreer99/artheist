@@ -12135,7 +12135,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1230605932}
   speed: 5
-  globalMaxX: 95
+  globalMaxX: 100
   globalMaxY: 5
   globalMinX: -20
   globalMinY: -50
