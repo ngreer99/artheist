@@ -121,9 +121,9 @@ PolygonCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0.02, z: 0, w: 0}
+    border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.23, y: 0.32}
+    oldSize: {x: 0.23, y: 0.3}
     newSize: {x: 0.23, y: 0.32}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -164,3 +164,14 @@ MonoBehaviour:
   hitsound: {fileID: 0}
   coinsound: {fileID: 0}
   killsound: {fileID: 0}
+  animationFPS: 6
+  walkRightAnimation:
+  - {fileID: 4672648239934035568, guid: 8542c4b11f45047f69fe99142b36b1fd, type: 3}
+  - {fileID: -8495057713170348988, guid: 8542c4b11f45047f69fe99142b36b1fd, type: 3}
+  - {fileID: -3466771718310064482, guid: 8542c4b11f45047f69fe99142b36b1fd, type: 3}
+  - {fileID: -8978062843487682211, guid: 8542c4b11f45047f69fe99142b36b1fd, type: 3}
+  walkLeftAnimation:
+  - {fileID: 4672648239934035568, guid: 8542c4b11f45047f69fe99142b36b1fd, type: 3}
+  - {fileID: -8495057713170348988, guid: 8542c4b11f45047f69fe99142b36b1fd, type: 3}
+  - {fileID: -3466771718310064482, guid: 8542c4b11f45047f69fe99142b36b1fd, type: 3}
+  - {fileID: -8978062843487682211, guid: 8542c4b11f45047f69fe99142b36b1fd, type: 3}

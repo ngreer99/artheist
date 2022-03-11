@@ -17,6 +17,12 @@ public class PlayerController : BaseController
     public AudioClip killsound;
     private AudioSource audioSource;
 
+    public float animationFPS;
+    public Sprite[] walkRightAnimation;
+    public Sprite[] walkLeftAnimation;
+    private float frameTimer = 0;
+    private int frameIndex = 0;
+
     public override void Start()
     {
         base.Start();
@@ -31,6 +37,27 @@ public class PlayerController : BaseController
         Vector2 vel = rb2d.velocity;
         vel.x = inputX;
         relativeVelocity = vel;
+
+        frameTimer -= Time.deltaTime;
+        if (frameTimer <= 0.0f)
+        {
+            if (Input.GetKey(KeyCode.RightArrow))
+            {
+                sRenderer.flipX = false;
+                frameTimer = 1 / animationFPS;
+                frameIndex %= walkRightAnimation.Length;
+                sRenderer.sprite = walkRightAnimation[frameIndex];
+                frameIndex++;
+            }
+            if (Input.GetKey(KeyCode.LeftArrow)) {
+                sRenderer.flipX = true;
+                frameTimer = 1 / animationFPS;
+                frameIndex %= walkLeftAnimation.Length;
+                sRenderer.sprite = walkLeftAnimation[frameIndex];
+                frameIndex++;
+            }
+            
+        }
 
         UpdateGrounding();
         bool inputJump = Input.GetKeyDown(KeyCode.Space);
