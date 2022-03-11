@@ -6121,11 +6121,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 386638241}
-  speed: 0
-  globalMaxX: 0
-  globalMaxY: 0
-  globalMinX: 0
-  globalMinY: 0
+  speed: 5
+  globalMaxX: 40
+  globalMaxY: 10
+  globalMinX: -20
+  globalMinY: -35
 --- !u!1 &2121116428
 GameObject:
   m_ObjectHideFlags: 0
