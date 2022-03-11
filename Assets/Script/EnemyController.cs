@@ -8,6 +8,7 @@ public class EnemyController : BaseController
     public float ledgeTestRight;
 
     private int direction = 1;
+    private float walkTimer = 0;
 
     void Update()
     {
@@ -22,15 +23,13 @@ public class EnemyController : BaseController
 
     int UpdateDirection()
     {
-        if (!grounded)
+
+        walkTimer -= Time.deltaTime;
+        if (walkTimer <= 3.0f)
         {
-            direction = 0;
-            return 0;
+            direction = -1;
         }
-        if (direction == 0)
-        {
-            direction = 1;
-        }
+        
         Vector3 ledgeRayStartLeft = transform.position + Vector3.up * groundRayLength + Vector3.left * ledgeTestLeft;
         Vector3 ledgeRayStartRight = transform.position + Vector3.up * groundRayLength + Vector3.right * ledgeTestRight;
 
@@ -40,7 +39,7 @@ public class EnemyController : BaseController
         RaycastHit2D hitLeft = Physics2D.Raycast(ledgeRayStartLeft, Vector2.down, groundRayLength * 2, groundLayers);
         RaycastHit2D hitRight = Physics2D.Raycast(ledgeRayStartRight, Vector2.down, groundRayLength * 2, groundLayers);
 
-        if (hitLeft.collider == null)
+        /*if (hitLeft.collider == null)
         {
             direction = 1;
         }
@@ -48,7 +47,7 @@ public class EnemyController : BaseController
         if (hitRight.collider == null)
         {
             direction = -1;
-        }
+        }*/
         return direction;
     }
 
