@@ -10,6 +10,7 @@ public class PlayerController : BaseController
     private float inputX;
     private SpriteRenderer sRenderer;
     private bool invulnerable = false;
+    public int art = 0;
 
     public AudioClip jumpsound;
     public AudioClip hitsound;
@@ -29,6 +30,8 @@ public class PlayerController : BaseController
         sRenderer = GetComponent<SpriteRenderer>();
         audioSource = GetComponent<AudioSource>();
         Lives.SetLives(lives);
+        ArtCount.SetCount(art);
+
     }
 
     void Update()
