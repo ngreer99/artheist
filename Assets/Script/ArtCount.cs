@@ -33,9 +33,9 @@ public class ArtCount : MonoBehaviour
         instance._SetCount(art);
     }
 
-    public static void RemoveArt()
+    public static void AddArt()
     {
-        instance._RemoveArt();
+        instance._AddArt();
     }
 
     private void _SetCount(int art)
@@ -59,10 +59,10 @@ public class ArtCount : MonoBehaviour
         ArtVisible = art;
     }
 
-    private void _RemoveArt()
+    private void _AddArt()
     {
-        ArtVisible--;
-        if (ArtVisible >= 0)
+        ArtVisible++;
+        if (ArtVisible == 5)
         {
             ArtImages[ArtVisible].enabled = false;
         }

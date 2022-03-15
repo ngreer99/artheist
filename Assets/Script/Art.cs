@@ -17,7 +17,7 @@ public class Art : MonoBehaviour
         
         if (other.CompareTag("Player"))
         {
-
+            PlayerController controller = other.gameObject.GetComponent<PlayerController>();
             Destroy(gameObject);
             // audioSource.PlayOneShot(coinsound);
 

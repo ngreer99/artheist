@@ -108,8 +108,10 @@ public class PlayerController : BaseController
         StartCoroutine(Invulnerability(1));
     }
 
-    public void CollectCoin()
+    public void CollectArt()
     {
+        art++;
+        ArtCount.AddArt();
         audioSource.PlayOneShot(coinsound);
     }
 
