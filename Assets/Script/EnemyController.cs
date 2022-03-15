@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
-//artheist 
 
 
 public class EnemyController : BaseController
@@ -11,10 +11,7 @@ public class EnemyController : BaseController
 
     private int direction = 1;
     private float walkTimer = 0;
-  
-   
-}
-    
+
     void Update()
     {
         UpdateGrounding();
@@ -24,20 +21,18 @@ public class EnemyController : BaseController
         vel.x = direction * speed;
         rb2d.velocity = vel;
         relativeVelocity = vel;
-
-
     }
 
 
     int UpdateDirection()
     {
-       
+
         walkTimer -= Time.deltaTime;
         if (walkTimer <= 3.0f)
         {
             direction = -1;
         }
-        
+
 
         Vector3 ledgeRayStartLeft = transform.position + Vector3.up * groundRayLength + Vector3.left * ledgeTestLeft;
         Vector3 ledgeRayStartRight = transform.position + Vector3.up * groundRayLength + Vector3.right * ledgeTestRight;
@@ -58,10 +53,10 @@ public class EnemyController : BaseController
             direction = -1;
         }
         return direction;
-        
-        
+
+
     }
-   
+
 
     protected override void Hurt(Vector3 impactDirection)
     {
@@ -78,5 +73,4 @@ public class EnemyController : BaseController
         }
 
     }
-    
-
+}
