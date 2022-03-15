@@ -3,41 +3,33 @@ using System.Collections.Generic;
 using UnityEngine;
 //artheist 
 
-public class Boundary
-{
-    public float xMin, xMax;
-}
 
-public class EnemyController : MonoBehaviour
+public class EnemyController : BaseController
 {
-    //public float ledgeTestLeft;
-    //public float ledgeTestRight;
+    public float ledgeTestLeft;
+    public float ledgeTestRight;
 
     private int direction = 1;
-    //private float walkTimer = 0;
-
-    public Transform transformx;
-    private Vector3 xAxis;
-    private float secondsForOneLength = 1f;
-    public Boundary boundary;
+    private float walkTimer = 0;
+  
+   
+}
     
-
     void Update()
     {
-        //UpdateGrounding();
-        //UpdateDirection();
+        UpdateGrounding();
+        UpdateDirection();
 
-        //Vector2 vel = rb2d.velocity;
-        //vel.x = direction * speed;
-        //rb2d.velocity = vel;
-        //relativeVelocity = vel;
+        Vector2 vel = rb2d.velocity;
+        vel.x = direction * speed;
+        rb2d.velocity = vel;
+        relativeVelocity = vel;
 
-        transform.position = new Vector3(Mathf.PingPong(boundary.xMin, boundary.xMax), transform.position.y, transform.position.z);
-        
+
     }
 
 
-    /*int UpdateDirection()
+    int UpdateDirection()
     {
        
         walkTimer -= Time.deltaTime;
@@ -68,13 +60,10 @@ public class EnemyController : MonoBehaviour
         return direction;
         
         
-    }*/
-    void OnTriggerEnter(Collider Player)
-    {
-        Destroy(Player.gameObject);
     }
+   
 
-    /*protected override void Hurt(Vector3 impactDirection)
+    protected override void Hurt(Vector3 impactDirection)
     {
         if (Mathf.Abs(impactDirection.x) > Mathf.Abs(impactDirection.y))
         {
@@ -89,5 +78,5 @@ public class EnemyController : MonoBehaviour
         }
 
     }
-    */
-}
+    
+
