@@ -6561,7 +6561,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a12bf6d23048a4bbc9e876fe562de68c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelUp: 
+  levelUp: 3
   closedSprite: {fileID: -7738799295608624072, guid: c4ea48330eb804f91bd0b8498dfb8924, type: 3}
   collectMinToOpen: 1
 --- !u!61 &1236417015

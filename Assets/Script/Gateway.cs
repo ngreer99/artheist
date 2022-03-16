@@ -19,7 +19,6 @@ public class Gateway : MonoBehaviour
     private int numArt = 0; 
     private int minArt = 1;//min number pieces of art needed
 
-
     private bool isOpen = false;
 
     private void Awake()
