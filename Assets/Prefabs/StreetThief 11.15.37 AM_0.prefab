@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 7556669707745915971}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.75, y: 1.26, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_LocalScale: {x: 4, y: 4, z: 5}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -158,8 +158,9 @@ MonoBehaviour:
   groundRayLength: 0.1
   groundRaySpread: 0.4
   relativeVelocity: {x: 0, y: 0}
-  jumpforce: 12
+  jumpforce: 8
   lives: 5
+  art: 0
   jumpsound: {fileID: 0}
   hitsound: {fileID: 0}
   coinsound: {fileID: 0}
