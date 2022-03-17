@@ -18,35 +18,6 @@ public abstract class BaseController : MonoBehaviour
         rb2d = GetComponent<Rigidbody2D>();
     }
 
-    protected bool UpdateGrounding()
-    {
-        Vector3 rayStart = transform.position + Vector3.up * groundRayLength;
-        Vector3 rayStartLeft = transform.position + Vector3.up * groundRayLength + Vector3.left * groundRaySpread;
-        Vector3 rayStartRight = transform.position + Vector3.up * groundRayLength + Vector3.right * groundRaySpread;
-
-        RaycastHit2D hit = Physics2D.Raycast(rayStart, Vector2.down, groundRayLength * 2, groundLayers);
-        RaycastHit2D hitLeft = Physics2D.Raycast(rayStartLeft, Vector2.down, groundRayLength * 2, groundLayers);
-        RaycastHit2D hitRight = Physics2D.Raycast(rayStartRight, Vector2.down, groundRayLength * 2, groundLayers);
-
-
-        if (hit.collider != null)
-        {
-            grounded = true;
-            return true;
-        }
-        else if (hitLeft.collider != null)
-        {
-            grounded = true;
-            return true;
-        }
-        else if (hitRight.collider != null)
-        {
-            grounded = true;
-            return true;
-        }
-        grounded = false;
-        return false;
-    }
 
     private void OnCollisionStay2D(Collision2D collision)
     {

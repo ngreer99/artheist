@@ -62,7 +62,7 @@ public class PlayerController : BaseController
             
         }
 
-        UpdateGrounding();
+        
         bool inputJump = Input.GetKeyDown(KeyCode.Space);
         if (inputJump)
         {

@@ -6,15 +6,23 @@ using UnityEngine;
 
 public class EnemyController : BaseController
 {
-    public float ledgeTestLeft;
-    public float ledgeTestRight;
 
     private int direction = 1;
     private float walkTimer = 0;
+    private SpriteRenderer sRenderer;
+
+
+    public override void Start()
+    {
+        
+        sRenderer = GetComponent<SpriteRenderer>();
+        rb2d = GetComponent<Rigidbody2D>();
+
+    }
 
     void Update()
     {
-        UpdateGrounding();
+        
         UpdateDirection();
 
         Vector2 vel = rb2d.velocity;
@@ -27,31 +35,24 @@ public class EnemyController : BaseController
     int UpdateDirection()
     {
 
-        walkTimer -= Time.deltaTime;
-        if (walkTimer <= 3.0f)
+        walkTimer += Time.deltaTime;
+        if (walkTimer <= 2.0f)
         {
+            sRenderer.flipX = false;
             direction = -1;
         }
 
-
-        Vector3 ledgeRayStartLeft = transform.position + Vector3.up * groundRayLength + Vector3.left * ledgeTestLeft;
-        Vector3 ledgeRayStartRight = transform.position + Vector3.up * groundRayLength + Vector3.right * ledgeTestRight;
-
-        Debug.DrawLine(ledgeRayStartLeft, ledgeRayStartLeft + Vector3.down * groundRayLength * 2, Color.blue);
-        Debug.DrawLine(ledgeRayStartRight, ledgeRayStartRight + Vector3.down * groundRayLength * 2, Color.blue);
-
-        RaycastHit2D hitLeft = Physics2D.Raycast(ledgeRayStartLeft, Vector2.down, groundRayLength * 2, groundLayers);
-        RaycastHit2D hitRight = Physics2D.Raycast(ledgeRayStartRight, Vector2.down, groundRayLength * 2, groundLayers);
-
-        if (hitLeft.collider == null)
+        else
         {
             direction = 1;
+            sRenderer.flipX = true;
+        }
+        if (walkTimer >= 4.0f)
+            {
+                walkTimer = 0;   
         }
 
-        if (hitRight.collider == null)
-        {
-            direction = -1;
-        }
+        
         return direction;
 
 
