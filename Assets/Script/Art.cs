@@ -25,15 +25,15 @@ public class Art : MonoBehaviour
     {
         
         PlayerController controller = other.gameObject.GetComponent<PlayerController>();
-         /*if (controller != null){
+        /*if (controller != null){
             controller.CollectArt(); //sound
             Gateway gate = FindObjectOfType<Gateway>();
             if(gate!=null) gate.ArtCollected(); 
         }*/
         if (other.CompareTag("Player"))
         {
+            controller.CollectArt();
             PlayerController controller1 = other.gameObject.GetComponent<PlayerController>();
-
             Destroy(gameObject);
             
 
