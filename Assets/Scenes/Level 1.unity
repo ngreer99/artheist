@@ -1217,6 +1217,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4546211271856875273, guid: aaf9e15ebce82492086c97993ae845f3, type: 3}
+      propertyPath: star
+      value: 
+      objectReference: {fileID: 5871022768352658518, guid: f4343cd0e12644f41acc95c99e7657f7, type: 3}
+    - target: {fileID: 4546211271856875273, guid: aaf9e15ebce82492086c97993ae845f3, type: 3}
       propertyPath: hitsound
       value: 
       objectReference: {fileID: 8300000, guid: 4fe00b9f482734a5ab0e5169ad51b241, type: 3}
@@ -8082,7 +8086,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelUp: 3
-  minArt: 10
+  minArt: 3
   closedSprite: {fileID: -7738799295608624072, guid: c4ea48330eb804f91bd0b8498dfb8924, type: 3}
   collectMinToOpen: 1
 --- !u!61 &1236417015
@@ -8098,7 +8102,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
