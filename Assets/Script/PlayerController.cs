@@ -14,7 +14,7 @@ public class PlayerController : BaseController
 
     public AudioClip jumpsound;
     public AudioClip hitsound;
-    public AudioClip coinsound;
+    public AudioClip artsound;
     public AudioClip killsound;
     private AudioSource audioSource;
 
@@ -112,7 +112,7 @@ public class PlayerController : BaseController
     {
         art++;
         ArtCount.AddArt();
-        audioSource.PlayOneShot(coinsound);
+        audioSource.PlayOneShot(artsound);
     }
 
     IEnumerator Invulnerability(float time)

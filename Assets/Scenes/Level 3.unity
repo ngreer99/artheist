@@ -14055,6 +14055,10 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 7316683594425978640, guid: aaf9e15ebce82492086c97993ae845f3, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7556669707745915971, guid: aaf9e15ebce82492086c97993ae845f3, type: 3}
       propertyPath: m_Name
       value: StreetThief 11.15.37 AM_0
@@ -14406,7 +14410,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03bcae97789f842029651b1e2a7f20db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsound: {fileID: 8300000, guid: b9bd30f2210ac49dbbc01fe30fc457c8, type: 3}
 --- !u!1 &1727615819
 GameObject:
   m_ObjectHideFlags: 0

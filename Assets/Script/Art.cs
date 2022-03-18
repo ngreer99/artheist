@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Art : MonoBehaviour
 {
-    public AudioClip artsound;
+    //public AudioClip artsound;
     private AudioSource audioSource;
     SpriteRenderer sRenderer;
 
@@ -23,16 +23,17 @@ public class Art : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
+        
         PlayerController controller = other.gameObject.GetComponent<PlayerController>();
-         if (controller != null){
+         /*if (controller != null){
             controller.CollectArt(); //sound
             Gateway gate = FindObjectOfType<Gateway>();
             if(gate!=null) gate.ArtCollected(); 
-        }
+        }*/
         if (other.CompareTag("Player"))
         {
             PlayerController controller1 = other.gameObject.GetComponent<PlayerController>();
-            //audioSource.PlayOneShot(artsound);
+
             Destroy(gameObject);
             
 
