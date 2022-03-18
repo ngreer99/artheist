@@ -164,7 +164,7 @@ MonoBehaviour:
   art: 0
   jumpsound: {fileID: 0}
   hitsound: {fileID: 0}
-  artsound: {fileID: 0}
+  artsound: {fileID: 8300000, guid: b9bd30f2210ac49dbbc01fe30fc457c8, type: 3}
   killsound: {fileID: 0}
   animationFPS: 6
   walkRightAnimation:
