@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public abstract class BaseController : MonoBehaviour
 {
@@ -18,6 +19,10 @@ public abstract class BaseController : MonoBehaviour
         rb2d = GetComponent<Rigidbody2D>();
     }
 
+    public void LoadNextLevel(int x)
+    {
+        SceneManager.LoadScene(x);
+    }
 
     private void OnCollisionStay2D(Collision2D collision)
     {

@@ -7,7 +7,10 @@ using UnityEngine.SceneManagement;
 public class Gateway : MonoBehaviour
 {
 
-    public string levelUp = "";
+    public int levelUp;
+    public int minArt;//min number pieces of art needed
+
+
     public Sprite closedSprite;
     //public Sprite[] openAnimation;
     //public float animationFPS = 5;
@@ -17,9 +20,11 @@ public class Gateway : MonoBehaviour
 
     public bool collectMinToOpen = true;
     private int numArt = 0; 
-    private int minArt = 1;//min number pieces of art needed
+    
 
     private bool isOpen = false;
+
+    BaseController controller;
 
     private void Awake()
     {
@@ -27,13 +32,19 @@ public class Gateway : MonoBehaviour
         Open();
     }
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
+        controller = FindObjectOfType<BaseController>();
+    }
+    /*{
         if(levelUp == "")
         {
             levelUp = SceneManager.GetActiveScene().name;
         }
-    }
+    }*/
+
+    
+
 
     // Update is called once per frame
     /*void Update()
@@ -54,11 +65,14 @@ public class Gateway : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
         if (!isOpen) return;
-
-        BaseController controller = other.gameObject.GetComponent<BaseController>();
+        if (isOpen)
+        {
+            controller.LoadNextLevel(levelUp);
+        }
+        /*PlayerController controller = other.gameObject.GetComponent<PlayerController>();
         if (controller != null){
             SceneManager.LoadScene(levelUp);
-        }
+        }*/
     }
 
     public void AddArt() //counts all of art pieces in maze
