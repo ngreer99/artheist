@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Art : MonoBehaviour
 {
-    public AudioClip coinsound;
+    public AudioClip artsound;
     private AudioSource audioSource;
     SpriteRenderer sRenderer;
 
@@ -13,6 +13,7 @@ public class Art : MonoBehaviour
         Gateway gate = FindObjectOfType<Gateway>();
         if(gate!=null) gate.AddArt();
         sRenderer = GetComponent<SpriteRenderer>();
+        //audioSource = GetComponent<AudioSource>();
     }
 
     void Awake()
@@ -31,8 +32,9 @@ public class Art : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             PlayerController controller1 = other.gameObject.GetComponent<PlayerController>();
+            //audioSource.PlayOneShot(artsound);
             Destroy(gameObject);
-            // audioSource.PlayOneShot(coinsound);
+            
 
         }
 
