@@ -23,6 +23,7 @@ public class PlayerController : BaseController
     public Sprite[] walkLeftAnimation;
     private float frameTimer = 0;
     private int frameIndex = 0;
+    public GameObject star;
 
     public override void Start()
     {
@@ -71,6 +72,12 @@ public class PlayerController : BaseController
             relativeVelocity.y = vel.y;
         }
         rb2d.velocity = vel;
+
+        if (Input.GetKeyDown(KeyCode.RightShift))
+        {
+            Vector3 pos = transform.position;
+            Instantiate(star, pos, Quaternion.identity);
+        }
     }
 
     protected override void Hurt(Vector3 impactDirection)
