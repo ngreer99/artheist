@@ -18,9 +18,6 @@ public class PlayerController : BaseController
     public AudioClip artsound;
     public AudioClip killsound;
 
-    //public AudioClip doorSound;
-    //public Text countText;
-
     private AudioSource audioSource;
 
     public float animationFPS;
@@ -159,5 +156,11 @@ IEnumerator Invulnerability(float time)
             TakeDamage();
 
         }
+        
+        if (collision.gameObject.CompareTag("Gem"))
+        {
+            SceneManager.LoadScene("WinningScene");
+        }
+        
     }
 }
