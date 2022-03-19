@@ -442,6 +442,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelUp: 4
+  minArt: 0
+  doorSound: {fileID: 8300000, guid: ba53a9e0b9dfe4a9ea21b19697e87d75, type: 3}
   closedSprite: {fileID: -7738799295608624072, guid: c4ea48330eb804f91bd0b8498dfb8924, type: 3}
   collectMinToOpen: 1
 --- !u!61 &235364453

@@ -16,6 +16,9 @@ public class PlayerController : BaseController
     public AudioClip hitsound;
     public AudioClip artsound;
     public AudioClip killsound;
+
+    //public AudioClip doorSound;
+
     private AudioSource audioSource;
 
     public float animationFPS;
@@ -122,6 +125,11 @@ public class PlayerController : BaseController
         audioSource.PlayOneShot(artsound);
     }
 
+    /*public void playDoorSound()
+    {
+        audioSource.PlayOneShot(doorSound);
+    }
+    */
     IEnumerator Invulnerability(float time)
     {
         invulnerable = true;

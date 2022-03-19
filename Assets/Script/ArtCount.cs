@@ -10,11 +10,12 @@ public class ArtCount : MonoBehaviour
     public Image[] ArtImages;
     private int ArtVisible;
     private static ArtCount instance;
+
     // Start is called before the first frame update
     /*
     void Start()
     {
-        
+       
     }
 
     // Update is called once per frame
@@ -67,4 +68,5 @@ public class ArtCount : MonoBehaviour
             ArtImages[ArtVisible].enabled = false;
         }
     }
+
 }

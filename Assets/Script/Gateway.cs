@@ -9,6 +9,8 @@ public class Gateway : MonoBehaviour
 
     public int levelUp;
     public int minArt;//min number pieces of art needed
+    public AudioClip doorSound;
+    private AudioSource audioSource;
 
 
     public Sprite closedSprite;
@@ -19,8 +21,8 @@ public class Gateway : MonoBehaviour
     private SpriteRenderer sRenderer;
 
     public bool collectMinToOpen = true;
-    private int numArt = 0; 
-    
+    private int numArt = 0;
+
 
     private bool isOpen = false;
 
@@ -35,6 +37,7 @@ public class Gateway : MonoBehaviour
     private void Start()
     {
         controller = FindObjectOfType<BaseController>();
+        audioSource = GetComponent<AudioSource>();
     }
     /*{
         if(levelUp == "")
@@ -43,7 +46,7 @@ public class Gateway : MonoBehaviour
         }
     }*/
 
-    
+
 
 
     // Update is called once per frame
@@ -73,12 +76,19 @@ public class Gateway : MonoBehaviour
         if (controller != null){
             SceneManager.LoadScene(levelUp);
         }*/
+        if (other.CompareTag("Player"))
+        {
+            //playDoorSound();
+            audioSource.PlayOneShot(doorSound);
+        }
+        
+    
     }
 
     public void AddArt() //counts all of art pieces in maze
     {
         numArt++;
-        if (collectMinToOpen) 
+        if (collectMinToOpen)
         {
             Close();
         }
@@ -87,7 +97,7 @@ public class Gateway : MonoBehaviour
     public void ArtCollected()
     {
         numArt--; //subtract for each piece collected
-        if(numArt >= minArt) //if pieces of collected is greater than or equal to min art, then open
+        if (numArt >= minArt) //if pieces of collected is greater than or equal to min art, then open
         {
             Open();
         }
@@ -103,4 +113,4 @@ public class Gateway : MonoBehaviour
         isOpen = false;
         sRenderer.sprite = closedSprite;
     }
-}
+    }
