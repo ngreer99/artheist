@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
+//using UnityEngine.UI;
 
 public class PlayerController : BaseController
 {
@@ -18,6 +19,7 @@ public class PlayerController : BaseController
     public AudioClip killsound;
 
     //public AudioClip doorSound;
+    //public Text countText;
 
     private AudioSource audioSource;
 
@@ -123,14 +125,21 @@ public class PlayerController : BaseController
         art++;
         ArtCount.AddArt();
         audioSource.PlayOneShot(artsound);
+        //SetCountText();
     }
 
-    /*public void playDoorSound()
-    {
-        audioSource.PlayOneShot(doorSound);
-    }
-    */
-    IEnumerator Invulnerability(float time)
+//void SetCountText()
+//{
+    //countText.text = art.ToString();
+
+//}
+
+/*public void playDoorSound()
+{
+    audioSource.PlayOneShot(doorSound);
+}
+*/
+IEnumerator Invulnerability(float time)
     {
         invulnerable = true;
         for (int i = 0; i < time / 0.2f; i++)
