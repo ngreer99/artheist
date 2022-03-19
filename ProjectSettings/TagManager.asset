@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Art
   - Gateway
+  - Laser
   layers:
   - Default
   - TransparentFX
