@@ -6,11 +6,14 @@ public class YouWin : MonoBehaviour
 {
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     // Start is called before the first frame update
     void Start()
     {
         
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     public float speed;
@@ -21,6 +24,9 @@ public class YouWin : MonoBehaviour
     {
         myRb2D = GetComponent<Rigidbody2D>();
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -31,7 +37,13 @@ public class YouWin : MonoBehaviour
     {
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         transform.localPosition *= (1, 1, 1);
+=======
+        Vector2 vel = myRb2D.velocity;
+        vel.x = speed;
+        myRb2D.velocity = vel;
+>>>>>>> Stashed changes
 =======
         Vector2 vel = myRb2D.velocity;
         vel.x = speed;
