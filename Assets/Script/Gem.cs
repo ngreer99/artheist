@@ -10,6 +10,10 @@ public class Gem : MonoBehaviour
     private float frameTimer = 0;
     private int frameIndex = 0;
 
+
+    private int count = 0;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,22 +25,23 @@ public class Gem : MonoBehaviour
     void Update()
     {
         frameTimer -= Time.deltaTime;
-        transform.localScale *= 0.9f;
         if (frameTimer <= 0.0f)
         {
-            int count = 0;
+            
             frameTimer = 1 / animationFPS;
             frameIndex %= Gems.Length;
             sRenderer.sprite = Gems[frameIndex];
-            if (count == 1)
+            if (count == 0)
             {
-                transform.localScale *= 1.5f;
-                count--;
-            }
-            else{
+                transform.localScale *= 1.25f;
                 count++;
             }
-            
+            else
+            {
+                transform.localScale *= .8f;
+                count--;
+            }
+
             frameIndex++;
         }
     }
