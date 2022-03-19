@@ -347,8 +347,13 @@ Transform:
   m_GameObject: {fileID: 332864944}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_LocalPosition: {x: 6.89, y: 5.34, z: 0}
   m_LocalScale: {x: 5.2976, y: 3.109671, z: 1}
+=======
+  m_LocalPosition: {x: 6.7277, y: 6.0123, z: 0}
+  m_LocalScale: {x: 4.972857, y: 4.454293, z: 1}
+>>>>>>> Stashed changes
 =======
   m_LocalPosition: {x: 6.7277, y: 6.0123, z: 0}
   m_LocalScale: {x: 4.972857, y: 4.454293, z: 1}
@@ -369,11 +374,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
     - target: {fileID: -7027849520718496693, guid: aaf9e15ebce82492086c97993ae845f3, type: 3}
       propertyPath: MinDistance
       value: 0.7681737
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     - target: {fileID: 1089127392536277595, guid: aaf9e15ebce82492086c97993ae845f3, type: 3}
       propertyPath: m_SortingOrder
@@ -398,7 +409,11 @@ PrefabInstance:
     - target: {fileID: 2359439010904291339, guid: aaf9e15ebce82492086c97993ae845f3, type: 3}
       propertyPath: m_LocalPosition.y
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       value: -2.67
+=======
+      value: -2.9
+>>>>>>> Stashed changes
 =======
       value: -2.9
 >>>>>>> Stashed changes
@@ -789,6 +804,10 @@ GameObject:
   - component: {fileID: 1259324150}
   - component: {fileID: 1259324152}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+  - component: {fileID: 1259324153}
+>>>>>>> Stashed changes
 =======
   - component: {fileID: 1259324153}
 >>>>>>> Stashed changes
@@ -859,7 +878,11 @@ Transform:
   m_GameObject: {fileID: 1259324149}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_LocalPosition: {x: -10, y: -0.37, z: 0}
+=======
+  m_LocalPosition: {x: -9.91, y: 1.4, z: 0}
+>>>>>>> Stashed changes
 =======
   m_LocalPosition: {x: -9.91, y: 1.4, z: 0}
 >>>>>>> Stashed changes
@@ -881,7 +904,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
   speed: 2.5
 --- !u!50 &1259324153
 Rigidbody2D:
@@ -904,6 +930,9 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!1 &1399919507
 GameObject:
@@ -1138,7 +1167,11 @@ Transform:
   m_GameObject: {fileID: 1723265211}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_LocalPosition: {x: 0.01, y: -2.63, z: 0}
+=======
+  m_LocalPosition: {x: 0.57, y: -1.84, z: 0}
+>>>>>>> Stashed changes
 =======
   m_LocalPosition: {x: 0.57, y: -1.84, z: 0}
 >>>>>>> Stashed changes
