@@ -9,8 +9,8 @@ public class Gateway : MonoBehaviour
 
     public int levelUp;
     public int minArt;//min number pieces of art needed
-    public AudioClip doorSound;
-    private AudioSource audioSource;
+    //public AudioClip doorSound;
+    //private AudioSource audioSource;
 
 
     public Sprite closedSprite;
@@ -37,7 +37,7 @@ public class Gateway : MonoBehaviour
     private void Start()
     {
         controller = FindObjectOfType<BaseController>();
-        audioSource = GetComponent<AudioSource>();
+        //audioSource = GetComponent<AudioSource>();
     }
     /*{
         if(levelUp == "")
@@ -76,11 +76,14 @@ public class Gateway : MonoBehaviour
         if (controller != null){
             SceneManager.LoadScene(levelUp);
         }*/
+
+        /*
         if (other.CompareTag("Player"))
         {
             //playDoorSound();
             audioSource.PlayOneShot(doorSound);
         }
+        */
         
     
     }
@@ -113,4 +116,4 @@ public class Gateway : MonoBehaviour
         isOpen = false;
         sRenderer.sprite = closedSprite;
     }
-    }
+}
